@@ -87,13 +87,15 @@ img{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+
 }
 .hero-pannel{
-    width: 50%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 22px;
+    flex-wrap: wrap;
 
 }
 
@@ -103,8 +105,6 @@ img{
     align-items: flex-start;
     justify-content: center;
     width: 300px;
-
-    flex-shrink: 0;
 }
 
 .main-text,
@@ -147,9 +147,10 @@ img{
 
 .card p{
     margin-top: 5px;
-    text-align: center;
 }
-
+.card img{
+    border: 2px solid #3882F6;
+}
 .content2-bg{
     background-color: #E5E7EB;
 }
