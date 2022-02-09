@@ -132,6 +132,8 @@ img{
 .cards{
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 
 }
@@ -145,6 +147,7 @@ img{
 
 .card p{
     margin-top: 5px;
+    text-align: center;
 }
 
 .content2-bg{
