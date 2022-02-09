@@ -1,0 +1,172 @@
+ul, a, p, h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+    padding: 8px;
+    background-color: #3882F6;
+    text-transform: uppercase;
+    border-radius: 11px;
+    color: #E5E7EB;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+button:hover{
+    transform: translateY(-2px);
+    background-color: #2e49e5;
+}
+button:active{
+    transform: translateY(-1px);
+}
+/* Icons */
+
+.icon{
+    margin-right: 2px;
+
+}
+.content{
+
+
+    /* Main container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* In order to align all flex container after */
+    justify-content: center;
+
+}
+
+.header{
+    width: 100%; 
+    background-color: #1f2937;
+}
+.nav-bar{
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    flex-wrap: wrap;
+}
+
+
+.nav-link ul{
+    display: flex;
+    gap: 12px;
+
+    /* Text font */
+
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.nav-link ul li a{
+    padding: 5px;
+
+}
+.nav-link ul li a:hover{
+    border-radius: 8px;
+    background-color: rgb(43, 71, 129);
+
+}
+.nav-link ul li a:active{
+    border-radius: 8px;
+    background-color: rgb(25, 42, 77);
+}
+
+.nav-logo{
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-pannel{
+
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+}
+
+.hero-pannel .left-box{
+    max-width: 50vh;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.hero-pannel .left-box p{
+    padding: 8px 0;
+}
+.hero-pannel .left-box button{
+    align-self: flex-start;
+    margin-top: 8px;
+}
+.hero-pannel .right-box img{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.block1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.block1 h1{
+    text-align: center;
+    margin: 15px 0;
+}
+ 
+.block1 h1{
+    color: black;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+.card p{
+    text-align: center;
+    color: black;
+}
+.card img{
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(35, 99, 218);
+    box-shadow: 2px 2px 3px;
+}
+
+.card img:hover{
+    transform: translateY(-6px);
+    cursor: pointer;
+}    
+
