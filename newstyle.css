@@ -125,21 +125,21 @@ button:active{
 .main{
     display: flex;
     flex-direction: column;
-}
+    width: 100%;
+} 
 
 
 .block1{
     background-color: rgb(255, 255, 255);
     width: 100%;
+    margin-bottom: 5vh;
 }
 .block1 h1{
     text-align: center;
-    margin: 15px 0;
+    margin: 5vh 0;
+    color: rgba(0, 0, 0, 0.829);
 }
  
-.block1 h1{
-    color: black;
-}
 .cards{
     display: flex;
     justify-content: center;
@@ -170,3 +170,21 @@ button:active{
     cursor: pointer;
 }    
 
+.block2{
+    background-color: #E5E7EB;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 30vh 0 30vh;
+}
+.quote p{
+    font-family: inherit;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.quote h3{
+    align-self: flex-end;
+    font-style: italic;
+}
