@@ -9,8 +9,9 @@ h1{
 
 .main-title{
     margin: 0;
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -26,8 +27,8 @@ button {
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-weight: 500;
-    color: #000;
-    background-color: #fff;
+    color: white;
+    background-color: #3882F6;
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -38,25 +39,23 @@ button {
 
    
    button:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    background-color: #2e49e5;
+    box-shadow: 0px 15px 20px rgba(215, 218, 13, 0.4);
     color: #fff;
-    transform: translateY(-7px);
+    transform: translateY(-1px);
    }
    
    button:active {
     transform: translateY(-1px);
    }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 .header-bg{
-    background-color: rgb(93, 135, 226);
+    background-color: #1f2937;
     display: flex;
-    justify-content: center;
     padding-bottom: 50px;
+    justify-content: center;
+ 
 
 
 }
@@ -73,10 +72,18 @@ img{
 }
 .logo{
     font-weight: 900;
-    font-size: 32px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
+.header-nav a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .hero-bg{
-    background-color: rgb(93, 135, 226);
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -84,7 +91,7 @@ img{
 .hero-pannel{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 22px;
 
@@ -100,12 +107,15 @@ img{
     flex-shrink: 0;
 }
 
+.main-text,
+.footer-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .content1-bg{
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
 }
-.content2-bg{
-    background-color: grey;
-}
+
 .content1{
     display: flex;
     flex-direction: column;
@@ -114,7 +124,11 @@ img{
     padding: 22px;
     gap: 12px;
 }
-
+.content1 h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 .cards{
     display: flex;
     gap: 25px;
@@ -133,6 +147,9 @@ img{
     margin-top: 5px;
 }
 
+.content2-bg{
+    background-color: #E5E7EB;
+}
 .content2{
     padding: 20px 0;
     display: flex;
@@ -144,8 +161,54 @@ img{
 
 .text-content2{
     align-self: center;
-    width: 700px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 800px;
 }
 .sign-content2{
     text-align: right;
+    font-weight: bold;
+}
+
+
+.content3-bg{
+    background-color: white;
+}
+.content3{
+    margin: 20px auto;
+    width: 50em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 25px;
+    color: #E5E7EB;
+    margin-bottom: 50px;
+}
+
+.content3 p{
+    margin: 0;
+}
+
+.content3-left{
+    margin-left: 50px;
+}
+.content3-right{
+    margin-right: 50px;
+}
+
+.content3 button{
+
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+
+}
+
+.footer-bg{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
