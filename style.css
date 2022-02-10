@@ -194,15 +194,17 @@ button:active{
 }
 
 .block3{
-    padding: 8vh;
+    width: 100%;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
 }
 
 .call-to-action{
  
-    max-width: 80vh;
-    min-width: 20vh;
-    margin: 0 auto;
+
     background-color: #3882F6;
     padding: 2em 8em;
     border-radius: 8px;
@@ -211,14 +213,14 @@ button:active{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 12px;
-
+   
     
 }
 
 .call-to-action .text-left{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    
 }
 
 .call-to-action .button-right button{
