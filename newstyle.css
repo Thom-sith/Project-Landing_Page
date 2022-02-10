@@ -29,7 +29,6 @@ button:hover{
 button:active{
     transform: translateY(-1px);
 }
-/* Icons */
 
 .icon{
     margin-right: 2px;
@@ -47,7 +46,8 @@ button:active{
 
 }
 
-.header{
+.header,
+.footer{
     width: 100%; 
     background-color: #1f2937;
 }
@@ -59,7 +59,9 @@ button:active{
     gap: 30%;
     flex-wrap: wrap;
 }
-
+.source-button{
+    margin-left: 50px;
+}
 
 .nav-link ul{
     display: flex;
@@ -89,11 +91,13 @@ button:active{
     font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
+
 }
 
 .hero-pannel{
 
     margin: 15px 0;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -103,11 +107,12 @@ button:active{
 
 .hero-pannel .left-box{
     max-width: 50vh;
-    margin-top: 15px;
+    margin: auto 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     flex-shrink: 0;
+
 }
 .hero-pannel .left-box p{
     padding: 8px 0;
@@ -176,7 +181,9 @@ button:active{
 .quote{
     display: flex;
     flex-direction: column;
-    padding: 5vh 30vh 0 30vh;
+    max-width: 90vh;
+    margin: 0 auto;
+    padding: 7vh 0;
 }
 .quote p{
     font-family: inherit;
@@ -187,4 +194,45 @@ button:active{
 .quote h3{
     align-self: flex-end;
     font-style: italic;
+}
+
+.block3{
+    padding: 8vh 25vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.call-to-action{
+ 
+    max-width: 80vh;
+    min-width: 20vh;
+    margin: 0 auto;
+    background-color: #3882F6;
+    padding: 2em 8em;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    
+}
+
+.call-to-action .text-left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.call-to-action .button-right button{
+    border: 1px solid rgba(255, 255, 255, 0.767);
+}
+
+.footer p{
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
